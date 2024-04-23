@@ -61,46 +61,48 @@ Medical Assistant is an AI-powered healthcare system that helps patients find su
 ## Run on your Device
 
 Clone the project from the repository
-
-bash
+```bash
   git clone https://github.com/vaibhavi-singh-673/Medical-Assist.git
-
+```
 
 Install dependencies
 
 Start the server
-bash
+```bash
   cd server/
   npm install --force
+```
 
-bash
+```bash
   npm run server
-
+```
 
 Start the Client
-bash
+```bash
   cd react-app/
   npm install --force
+```
 
-bash
+```bash
   npm run start
-
+```
 
 Start Blockchain
-bash
+```bash
   cd blockchain/
   npm install --force
+```
 
-bash
+```bash
   npm run node_1
-
+```
 Start python
-bash
+```bash
   cd py side/
-
-bash
+```
+```bash
   python run.py
-
+```
 
 
 
