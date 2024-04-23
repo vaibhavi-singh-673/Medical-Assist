@@ -27,37 +27,6 @@ Medical Assistant is an AI-powered healthcare system that helps patients find su
 
 ## ![ScreenShot](./screenshots/Application%20Design.png)
 
-
-## ScreenShots
-
-#### Home Page
-
-## ![ScreenShot](./screenshots/HomePage.png)
-
-#### Authentication and ID verification
-
-## ![ScreenShot](./screenshots/SighIn.png)
-## ![ScreenShot](./screenshots/SighUp.png)
-## ![ScreenShot](./screenshots/ID%20Verification.png)
-
-#### Symptoms Detection and Suggestions
-
-## ![ScreenShot](./screenshots/Symptoms%20Detector.png)
-## ![ScreenShot](./screenshots/Symptoms%20Detector%202.png)
-
-#### Appointments
-
-## ![ScreenShot](./screenshots/Appointments.png)
-
-#### Contact Us
-
-## ![ScreenShot](./screenshots/Contact%20Us.png)
-
-#### Chat Bot
-
-## ![ScreenShot](./screenshots/Voice%20Assistant.png)
-
-
 ## Run on your Device
 
 #### Prerequisites
@@ -110,6 +79,37 @@ Start python
 ```bash
   python run.py
 ```
+
+## ScreenShots
+
+#### Home Page
+
+## ![ScreenShot](./screenshots/HomePage.png)
+
+#### Authentication and ID verification
+
+## ![ScreenShot](./screenshots/SighIn.png)
+## ![ScreenShot](./screenshots/SighUp.png)
+## ![ScreenShot](./screenshots/ID%20Verification.png)
+
+#### Symptoms Detection and Suggestions
+
+## ![ScreenShot](./screenshots/Symptoms%20Detector.png)
+## ![ScreenShot](./screenshots/Symptoms%20Detector%202.png)
+
+#### Appointments
+
+## ![ScreenShot](./screenshots/Appointments.png)
+
+#### Contact Us
+
+## ![ScreenShot](./screenshots/Contact%20Us.png)
+
+#### Chat Bot
+
+## ![ScreenShot](./screenshots/Voice%20Assistant.png)
+
+
 
 
 
