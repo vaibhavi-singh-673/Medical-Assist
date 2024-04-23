@@ -1,6 +1,6 @@
 # Medical Assistant
 
-Medical Assistant is an AI-powered healthcare system that helps patients find suitable doctors based on symptoms, location, and provider schedules. It uses AI to match users with doctors, allows them to rate providers, and includes a chatbot for immediate assistance and appointment booking. Patient medical records are stored securely with blockchain technology, allowing authorized healthcare providers to access them while ensuring privacy and security. This system centralizes medical services and schedules in a single dashboard, providing a comprehensive view for resource management and a seamless patient experience.
+Medical Assistant is an **AI-powered healthcare system** that helps patients **find suitable doctors** based on symptoms, location, and provider schedules. It uses AI to match users with doctors, allows them to rate providers, and includes a chatbot for **immediate assistance** and **appointment booking**. Patient **medical records are stored** securely with **blockchain** technology, allowing authorized healthcare providers to access them while **ensuring privacy and security**. This system centralizes medical services and schedules in a single dashboard, providing a comprehensive view for resource management and a seamless patient experience.
 
 
 
