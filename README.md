@@ -4,11 +4,6 @@ Medical Assistant is an AI-powered healthcare system that helps patients find su
 
 
 
-
-
-
-
-
 ## Main Features
 
 - Symptom Detection Module
@@ -35,63 +30,78 @@ Medical Assistant is an AI-powered healthcare system that helps patients find su
 
 ## ScreenShots
 
+#### Home Page
 
+## ![ScreenShot](./screenshots/HomePage.png)
 
-#### Real Time Chatting (with real time typing indicator)
+#### Authentication and ID verification
 
-## ![ScreenShots](./frontend/screenshots/Real%20Time%20Chattting.png)
+## ![ScreenShot](./screenshots/SighIn.png)
+## ![ScreenShot](./screenshots/SighUp.png)
+## ![ScreenShot](./screenshots/ID%20Verification.png)
 
-## One on One Chat
+#### Symptoms Detection and Suggestions
 
-## ![ScreenShots](./frontend/screenshots/Impressive%20Design.png)
+## ![ScreenShot](./screenshots/Symptoms%20Detector.png)
+## ![ScreenShot](./screenshots/Symptoms%20Detector%202.png)
 
-## Create Group
+#### Appointments
 
-## ![ScreenShots](./frontend/screenshots/Create%20Group.png)
+## ![ScreenShot](./screenshots/Appointments.png)
 
-#### Responsive design
+#### Contact Us
 
-## ![ScreenShots](./frontend/screenshots/Responsive%20Design.png)
+## ![ScreenShot](./screenshots/Contact%20Us.png)
 
-#### Video Call
+#### Chat Bot
 
-## ![ScreenShots](./frontend/screenshots/Video%20Call.png)
+## ![ScreenShot](./screenshots/Voice%20Assistant.png)
 
-### Voice Call
-
-## ![ScreenShots](./frontend/screenshots/Voice%20Call.png)
 
 ## Run on your Device
 
 Clone the project from the repository
 
 bash
-  git clone https://github.com/Joy-2612/BaatCheet.git
+  git clone https://github.com/vaibhavi-singh-673/Medical-Assist.git
 
 
 Install dependencies
 
-bash
-  npm install --force
-
-
-bash
-  cd frontend/
-  npm install --force
-
-
 Start the server
+bash
+  cd server/
+  npm install --force
+
+bash
+  npm run server
+
+
+Start the Client
+bash
+  cd react-app/
+  npm install --force
 
 bash
   npm run start
 
 
-Start the Client
+Start Blockchain
+bash
+  cd blockchain/
+  npm install --force
 
 bash
-  //open new terminal
-  cd frontend
-  npm start
+  npm run node_1
+
+Start python
+bash
+  cd py side/
+
+bash
+  python run.py
+
+
 
 
 - Made by [@vaibhavi-singh-673](https://github.com/vaibhavi-singh-673)
