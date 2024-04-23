@@ -60,6 +60,13 @@ Medical Assistant is an AI-powered healthcare system that helps patients find su
 
 ## Run on your Device
 
+#### Prerequisites
+You may find below the list of things you need to use this project :
+
+Make sure MongoDB is running on your system.
+You will need to install the "npm" command line.
+Make Sure Python downloaded.
+
 Clone the project from the repository
 ```bash
   git clone https://github.com/vaibhavi-singh-673/Medical-Assist.git
