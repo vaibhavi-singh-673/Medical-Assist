@@ -15,12 +15,12 @@ Medical Assistant is an AI-powered healthcare system that helps patients find su
 
 ## Tech Stack Used
 
-- Symptom Detection Module: Python, Flask
-- Appointment Scheduling System: Node.js, Express.js, MongoDB
-- Blockchain-Based Medical Records: Blockchain
-- Chatbot for Patient Interaction: Node.js, Express.js
-- User Authentication and Identity Verification: Advanced authentication(facial recognition)
-- Real-time Reporting Dashboard: React.js, MongoDB
+- Symptom Detection Module: **Python**, **Flask**
+- Appointment Scheduling System: **Node.js**, **Express.js**, **MongoDB**
+- Blockchain-Based Medical Records: **Blockchain**
+- Chatbot for Patient Interaction: **Node.js**, **Express.js**
+- User Authentication and Identity Verification: **Advanced authentication(facial recognition)**
+- Real-time Reporting Dashboard: **React.js, **MongoDB**
 
 
 ## Application Design
