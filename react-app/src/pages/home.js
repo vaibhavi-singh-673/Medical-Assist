@@ -40,7 +40,7 @@ function Home() {
           <div className="col-md-6 col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
             <h1 className="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">MedicalAssistant</h1>
             <p className="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">AI Healthcare Assistant that provides medical services to patients and doctors using chatbots to interact with them. It uses blockchain for storing medical reports and machine learning algorithms for illness detection and patient satisfaction prediction.</p>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#" className="btn btn-primary px-4 py-3">Make an Appointment</a></p>
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="role" className="btn btn-primary px-4 py-3">Make an Appointment</a></p>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ function Home() {
           <div className="col-md-6 col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
             <h1 className="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">MedicalAssistant</h1>
             <p className="mb-4">Your health in one click.</p>
-            <p><a href="#" className="btn btn-primary px-4 py-3">Make an Appointment</a></p>
+            <p><a href="role" className="btn btn-primary px-4 py-3">Make an Appointment</a></p>
           </div>
         </div>
       </div>

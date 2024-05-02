@@ -12,7 +12,7 @@ exports.signup = (req, res) => {
   const token = jwt.sign({ email: req.body.email }, config.secret);
 
   const user = new User({
-    username: req.body.username,
+    username: "user",
     firstname: req.body.firstname,
     lastname :req.body.lastname,
     phone : req.body.phone,
@@ -116,11 +116,11 @@ exports.signin = (req, res) => {
         });
       }
 
-      if (user.status != "Active") {
-        return res.status(401).send({
-          message: "Pending Account. Please Verify Your Email!",
-        });
-      }
+      // if (user.status != "Active") {
+      //   return res.status(401).send({
+      //     message: "Pending Account. Please Verify Your Email!",
+      //   });
+      // }
 
       var token = jwt.sign({ id: user.id }, config.secret, {
         expiresIn: 86400, // 24 hours

@@ -29,11 +29,11 @@ function Role () {
   
     })
     const patienthandler = (e) => {
-      window.location.href='/face-reg';
+      window.location.href='/registration';
       window.localStorage.setItem('role', 'patient')
     };
     const doctorhandler = (e) => {
-      window.location.href='/verification';
+      window.location.href='/registration';
       window.localStorage.setItem('role', 'doctor')
     };
     return (

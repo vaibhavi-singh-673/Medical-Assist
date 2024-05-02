@@ -43,7 +43,8 @@ export class FaceRegister extends Component {
           const mood = document.getElementById('mood').value;
           video.loadPixels();
           console.log(video.canvas);
-          const image64 = video.canvas.toDataURL();
+        //   const image64 = video.canvas.toDataURL();
+          const image64 = "hello";
           const data = { mood, image64 };
           const options = {
             method: 'POST',
@@ -52,8 +53,17 @@ export class FaceRegister extends Component {
             },
             body: JSON.stringify(data)
           };
-          console.log(image64);
+          console.log("image 64 : ");
           const response = await axios.post('http://localhost:5000/register', {'image64':image64, 'username':mood});
+          if(true){
+		  		const tracks = document.querySelector("video").srcObject.getTracks();
+		  		tracks.forEach(function(track) {
+    				track.stop();
+					window.localStorage.setItem('username', mood);
+                    
+  				});
+				window.location.href='/registration';
+		  	};
           if(response.status==200){
 		  		const tracks = document.querySelector("video").srcObject.getTracks();
 		  		tracks.forEach(function(track) {

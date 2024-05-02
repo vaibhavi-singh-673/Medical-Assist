@@ -53,7 +53,7 @@ function Take_appointment () {
     const display = filtredMessages && filtredMessages.map((talk) => {
            return (
                <div>
-                   <div className="chat chat-left">
+                   <div className="chat chat-right">
                         <div className="chat-avatar">
                             <a href="profile.html" className="avatar">
                             <img alt="Jennifer Robinson" src="assets/img/image_skander.jpg" className="img-fluid rounded-circle" />
@@ -68,7 +68,7 @@ function Take_appointment () {
                             </div>
                         </div>
                     </div>
-                    <div class="chat chat-right">
+                    <div class="chat chat-left">
                         <div class="chat-body">
                             <div class="chat-bubble">
                                 <div class="chat-content">
